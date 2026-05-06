@@ -53,14 +53,14 @@ Tools registered:
 
 ### Run via Docker
 
-The published image at `ghcr.io/<owner>/recog-ts:latest` runs both
+The published image at `ghcr.io/circle-rd/recog-ts:latest` runs both
 the API (port 3000) and the MCP server (port 8765) by default. Pick a
 single mode with the entrypoint argument:
 
 ```sh
-docker run --rm -p 3000:3000 ghcr.io/<owner>/recog-ts:latest api
-docker run --rm -p 8765:8765 ghcr.io/<owner>/recog-ts:latest mcp
-docker run --rm -p 3000:3000 -p 8765:8765 ghcr.io/<owner>/recog-ts:latest both
+docker run --rm -p 3000:3000 ghcr.io/circle-rd/recog-ts:latest api
+docker run --rm -p 8765:8765 ghcr.io/circle-rd/recog-ts:latest mcp
+docker run --rm -p 3000:3000 -p 8765:8765 ghcr.io/circle-rd/recog-ts:latest both
 ```
 
 ### Tags published
