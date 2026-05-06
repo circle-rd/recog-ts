@@ -1,0 +1,17 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "entryPoints": [
+    "packages/core/src/index.ts",
+    "packages/api/src/index.ts",
+    "packages/mcp/src/index.ts"
+  ],
+  "entryPointStrategy": "expand",
+  "out": "docs/content/api",
+  "plugin": ["typedoc-plugin-markdown"],
+  "readme": "none",
+  "githubPages": false,
+  "hideGenerator": true,
+  "excludePrivate": true,
+  "excludeInternal": true,
+  "tsconfig": "tsconfig.json"
+}

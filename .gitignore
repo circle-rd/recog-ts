@@ -1,0 +1,11 @@
+node_modules/
+dist/
+coverage/
+.tsbuildinfo
+*.tsbuildinfo
+.DS_Store
+.env
+.env.*
+docs/.nuxt/
+docs/.output/
+docs/content/api/

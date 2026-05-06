@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprints matches="sample.test" protocol="test">
+  <fingerprint pattern="^hello (\w+)$">
+    <description>Hello matcher</description>
+    <example greeting.target="world">hello world</example>
+    <param pos="0" name="service.vendor" value="Sample"/>
+    <param pos="1" name="greeting.target"/>
+  </fingerprint>
+</fingerprints>

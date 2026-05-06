@@ -1,0 +1,22 @@
+{
+  "name": "@recog-ts/core",
+  "version": "0.1.0",
+  "description": "TypeScript engine for Rapid7 Recog fingerprints.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^4.5.0"
+  }
+}

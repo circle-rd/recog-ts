@@ -1,0 +1,21 @@
+{
+  "name": "@recog-ts/mcp",
+  "version": "0.1.0",
+  "description": "MCP server exposing the recog-ts engine over Streamable HTTP or SSE.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "recog-ts-mcp": "./dist/bin/serve.js"
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@recog-ts/core": "workspace:*",
+    "@modelcontextprotocol/sdk": "^1.18.0",
+    "zod": "^3.23.8"
+  }
+}
